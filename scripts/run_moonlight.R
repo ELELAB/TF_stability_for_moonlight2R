@@ -1,4 +1,4 @@
-# This script runs the moonlight pipeline
+# This script runs the moonlight pipeline with the TFinflunce function
 
 # SET UP -------------------------------
 # Library ----------------
@@ -272,14 +272,10 @@ TFinfluence <- function(dataPRA,
                 by = join_by(TF == protein, tf_mutation == mutation)) |> 
       # Add helper column to check if TF is in MAVISp
       mutate(in_MAVISp = ifelse(TF %in% unique(dataMAVISpFiltered$protein), TRUE, FALSE)) |> 
-      # Determine stab_class based on helper column and mutation presence
-      mutate(stab_class = case_when(
-        !in_MAVISp ~ 'not in MAVISp yet',                  # TF not in MAVISp
-        in_MAVISp & is.na(stab_class) ~ 'mutation in IDR',  # TF in MAVISp but mutation missing
-        TRUE ~ stab_class                                  # Keep existing stab_class if no issue
-      )) |> 
-      # Drop the helper column
-      select(-in_MAVISp)
+      # Add helper column to check mutation presence in MAVISp
+      mutate(mutation_available = ifelse(paste(TF, tf_mutation) %in%
+                                         paste(dataMAVISpFiltered$protein, dataMAVISpFiltered$mutation), TRUE, FALSE))
+  
     
     # Check biological implications
     # Activation -> destabilising mutation -> decrease
@@ -322,15 +318,15 @@ top_15 <- top_TFs %>%
 mutation_count_top <- mutation_count %>%
   filter(TF %in% top_15)
 
-png(filename = "../figures/plot_TFinfluence_top15.png",
+png(filename = "../figures/plot_TFinfluence_coverage.png",
     width = 15, height = 6, units = "in", pointsize = 4, res = 1200)
 ggplot(mutation_count_top, aes(x = TF, y = unique_mutations, fill = stab_class)) +
   geom_bar(stat = "identity", position = "stack") +
   labs(
-    title = "Top 15 TFs: Mutations affecting the stability of TFs",
+    title = "MAVISp Coverage of TFs & Mutations",
     x = "TF",
-    y = "Number of Mutations",
-    fill = "MAVISp stability class"
+    y = "Number of Mutations in Cancer Patients",
+    fill = "MAVISp stability prediction"
   ) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
@@ -352,9 +348,3 @@ final_table <- TF_lumA %>%
   )
 write.csv(final_table, file = "../results/TFinfluence_summary_table.csv", row.names = FALSE)
 print('TFinfluence is done')
-
-
-
-
-
-

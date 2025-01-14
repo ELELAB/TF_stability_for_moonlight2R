@@ -1,0 +1,442 @@
+Protein,Uniprot AC,RefSeq ID,Review status,Curators,GitBook report,Distance cut-off used for AlloSigma2
+ADH1B,P00325,NP_000659,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/adh-proteins/adh1b/,15
+MLF1,P58340,NP_071888,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,15
+RAD17,O75943,NP_579917,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+APOBEC3B,Q9UH17,NP_004891,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech Republic)",,15
+PML,P29590,NP_150241,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+NF2,P35240,NP_000259,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+TEAD2,Q15562,NP_001243587,0,"Kristine Degn (DTU, Denmark)",,15
+NCOR1,O75376,NP_001177367,0,"Katrine Meldgård (DCI, Denmark, DTU, Denmark)",,
+DCLK3,Q9C098,NP_208382,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+TRAF7,Q6Q0C0,NP_115647,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech Republic)",,15
+B2M,P61769,NP_004039,2,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/b2m/,15
+GOT2,P00505,NP_002071,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+SPTBN1,Q01082,NP_003119,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+DR1,Q01658,NP_001929,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+NPLOC4,Q8TAT6,NP_060391,3,"Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/nploc4,15
+DROSHA,Q9NRR4,NP_037367,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+ADCK2,Q7Z695,NP_443085,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/adck-proteins/adck2,17.5
+ARHGEF10L,Q9HCE6,NP_060595,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,18
+CSTB,P04080,NP_000091,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cstb/,15
+BRIP1,Q9BX63,NP_114432,2,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/brip1/,15
+GPC5,P78333,NP_004457,0,"Anu Oswal (DCI, Denmark, DTU, Denmark)",,15
+KIF5A,Q12840,NP_004975,3,"Francesca Maselli (DCI, Denmark, IBFM-CNR, Italy)",https://elelab.gitbook.io/mavisp/proteins/kif5a,15
+MAP3K10,Q02779,NP_002437,0,"Philipp Becker (DTU, Denmark)",,15
+ATG9A,Q7Z3C6,NP_001070666,3,"Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/atg-proteins/atg9a,15
+FANCF,Q9NPI8,NP_073562,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/fancf/,15
+ANK3,Q12955,NP_066267,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ank-proteins/ank3,15
+HOXA11,P31270,NP_005514,0,"Anna Melidi (DTU, Denmark)",,15
+PIK3CA,P42336,NP_006209,2,"Amalie Drud Nielsen (DCI, Denmark, DTU, Denmark), Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/pik3ca/,15
+FABP6,P51161,NP_001035532,0,"Kristine Degn (DTU, Denmark)",,15
+LARP4B,Q92615,NP_055970,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+SMARCE1,Q969G3,NP_003070,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech Republic)",,15
+STAT6,P42226,NP_003144,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+BCKDK,O14874,NP_001116429,2,"Philipp Becker (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bckdk/,15
+PFN1,P07737,NP_00501,0,"Kristine Degn (DTU, Denmark)",,15
+ZNRF3,Q9ULT6,NP_001193927,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+BRD4,O60885,NP_490597,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+PELI2,Q9HAT8,NP_067078,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/peli2,15
+LDHA,P00338,NP_005557,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,15
+CDK12,Q9NYV4,NP_057591,0,"Anu Oswal (DCI, Denmark, DTU, Denmark)",,
+BCL2L1,Q07817,NP_612815,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bcl-proteins/bcl2l1/,15
+HPRT1,P00492,NP_000185,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+NTHL1,P78549,NP_001305122,0,"Paraskevi Saridaki (DCI, Denmark)",,15
+FANCI,Q9NVI1,NP_001106849,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/fanci/,15
+PPP6C,O00743,NP_002712,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+ATRX,P46100,NP_000480,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+CSNK1G2,P78368,NP_001310,1,"Philipp Becker (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/csnk1g2/,15
+CYLD,Q9NQC7,NP_056062,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,
+ATG4A,Q8WYN0,NP_443168,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/atg-proteins/atg4a,15
+KRAS,P01116,NP_203524,3,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Ludovica Beltrame (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/kras,15
+CREBBP,Q92793,NP_997647,0,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,15
+FUS,P35637,NP_004951,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,
+CRX,O43186,NP_000545,0,"Anna Melidi (DTU, Denmark)",,15
+TFAP2A,P05549,NP_001358995,0,"Katrine Meldgård (DCI, Denmark, DTU, Denmark)",,15
+IL10,P22301,NP_000563,0,"Ona Saulianskaite (DTU, Denmark)",,15
+FANCE,Q9HB96,NP_068741,2,"Matteo Arnaudi (DCRC, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/fance/,15
+MLH1,P40692,NP_000240,2,"Ludovica Beltrame (DTU, Denmark)",,
+BRSK1,Q8TDC3,NP_115806,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,15
+ATG14,Q6ZNE5,NP_055739,0,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",,15
+TSC2,P49815,NP_000539,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+FBXW7,Q969H0,NP_361014,0,"Joachim Breitenstein (DCI, Denmark, DTU, Denmark)",,
+NBN,O60934,NP_002476,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/nbn/,15
+IDH2,P48735,NP_002159,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark)",,15
+BIRC3,Q13489,NP_001156,0,"Paraskevi Saridaki (DCI, Denmark)",,15
+F13A1,P00488,NP_000120,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark)",,
+PPBP,P02775,NP_002695,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+XPA,P23025,NP_000371,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+PIK3R1,P27986,NP_852664,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+TAOK3,Q9H2K8,NP_057365,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+CNTNAP2,Q9UHC6,NP_054860,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CLK4,Q9HAZ1,NP_065717,2,"Kristine Degn (DTU, Denmark), Pablo Sanchez-Izquierdo (DTU, Denmark, DCI,Denmark)",https://elelab.gitbook.io/mavisp/proteins/clk4/,15
+BTG1,P62324,NP_001722,2,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/btg1,15
+LCN1,P31025,NP_001239546,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+UROD,P06132,NP_002992,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+RFWD3,Q6PCD5,NP_060594,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/rfwd3,15
+WIPI1,Q5MNZ9,NP_060453,0,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",,15
+RB1,P06400,NP_000312,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+MEN1,O00255,NP_000235,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CIITA,P33076,NP_001273332,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,15
+CAMK1G,Q96NX5,NP_065172,2,"Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/camk1g/,15
+BTK,Q06187,NP_000052,1,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/btk,15
+ETV6,P41212,NP_001978,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,
+IDH1,O75874,NP_001269315,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark)",,15
+POLD1,P28340,NP_002682,0,"Ludovica Beltrame (DTU, Denmark), Matteo Arnaudi (DTU, Denmark, DCI, Denmark)",,15
+NUPR1,O60356,NP_036517,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+SMAD2,Q15796,NP_005892,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+CAMKV,Q8NCB2,NP_001307076,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/camkv,15
+LEPROTL1,O95214,NP_056159,0,"Burcu Aykac Fas (LBT-IBPC, Paris, France)",,15
+BAP1,Q92560,NP_004647,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,15
+POU4F2,Q12837,NP_004566,0,"Anna Melidi (DTU, Denmark)",,
+APOC1,P02654,NP_001307994,2,"Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/apoc1/,15
+BAX,Q07812,NP_620116,2,"Terezia Dorcakova (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bax/,15
+ATP2B3,Q16720,NP_001001344,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+TPSAB1,Q15661,NP_003285,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,15
+ARHGAP26,Q9UNA1,NP_055886,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+ATG5,Q9H1Y0,NP_004840,0,"Kledi Salla (DTU, Denmark)",,16.5
+DYRK3,O43781,NP_003573,2,"Philipp Becker (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/dyrk3/,15
+PARK7,Q99497,NP_001116849,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/park7,15
+FEN1,P39748,NP_004102,0,"Joachim Breitenstein (DCI, Denmark, DTU, Denmark)",,
+TSC22D3,Q99576,NP_004080,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CYP2R1,Q6VVX0,NP_078790,4,"Francesca Maselli (DCI, Denmark, IBFM-CNR, Italy)",https://elelab.gitbook.io/mavisp/cyp2r1/,15
+CALR,P27797,NP_004334,3,"Matteo Arnaudi (DCRC, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/calr/,15
+CBFB,Q13951,NP_074036,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cbfb/,15
+DYRK4,Q9NR20,NP_003836,2,"Philipp Becker (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/acvr-proteins/dyrk4,15
+MAP1LC3C,Q9BXW4,NP_001004343,2,"Mattia Utichi (DCRC, Denmark, DTU, Denmark), Laura Mattioli (DCRC, Denmark)",https://elelab.gitbook.io/mavisp/proteins/map1lc3c/,15
+TGFBI,Q15582,NP_000349,0,"Kristine Degn (DCI, Denmark, DTU, Denmark)",,15
+HOXA5,P20719,NP_061975,0,"Katrine Meldgård (DCI, Denmark, DTU, Denmark)",,15
+MEIS1,O00470,NP_002389,0,"Anna Melidi (DTU, Denmark)",,15
+DSTYK,Q6XUX3,NP_056190,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+MSH3,P20585,NP_002430,0,"Matteo Lambrughi (DCI, Denmark), Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+DNMT1,P26358,NP_001370,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CASP9,P55211,NP_001220,0,"Anu Oswal (DCI, Denmark, DTU, Denmark)",,15
+SRC,P12931,NP_005408,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,15
+CDKL4,Q5MAI5,NP_001333840,2,"Jeremy Vinhas (DCI, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cdk-proteins/cdkl4/,15
+PRKAA2,P54646,NP_006243,0,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",,15
+RPL10,P27635,NP_006004,0,"Burcu Aykac Fas (IBPC, France)",,15
+POLG,P54098,NP_002684,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+NEK1,Q96PY6,NP_036356,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+SDHA,P31040,NP_004159,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech Republic)",,15
+ZNF331,Q9NQX6,NP_061025,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+BAK1,Q16611,NP_001179,2,"Julie Bruun Brockhoff (DCI, Denmark, DTU, Denmark), Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bak1/,15
+MUTYH,Q9UIF7,NP_001041639,0,"Burcu Aykac Fas (LBT-IBPC, Paris, France)",,15
+ATG3,Q9NT62,NP_071933,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/atg-proteins/atg3,16
+EED,O75530,NP_003788,0,"Ludovica Beltrame (DTU, Denmark)",,
+ISL1,P61371,NP_002193,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+MEFV,O15553,NP_000234,2,"Kristine Degn (DTU, Denmark), Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/mefv/,15
+CUL3,Q13618,NP_001244126,2,"Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cul3/,15
+ARHGEF10,O15013,NP_001295082,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,20
+KDM5C,P41229,NP_004178,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,
+LATS1,O95835,NP_004681,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+TAF1,P21675,NP_001273003,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+BARD1,Q99728,NP_000456,2,"Kristine Degn (DTU, Denmark), Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bard1/,15
+CTNNA1,P35221,NP_001310911,2,"Elena Papaleo (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ctnna1/,15
+TTPA,P49638,NP_000361,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+PRKCA,P17252,NP_002728,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/prkca/,15
+MAP3K14,Q99558,NP_003945,0,"Philipp Becker (DTU, Denmark)",,15
+EXT1,Q16394,NP_000118,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,
+CLTCL1,P53675,NP_009029,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,
+BRCA1,P38398,NP_009225,2,"Pablo Sanchez-Izquierdo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/brca1/,15
+ANXA3,P12429,NP_005130,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CDX2,Q99626,NP_001256,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+PPARG,P37231,NP_005028,2,"Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/pparg/,15
+N4BP2,Q86UW6,NP_060647,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+PBRM1,Q86U86,NP_001381798,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+SDHD,O14521,NP_002993,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech Republic)",,15
+EXT2,Q93063,NP_997005,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+FANCG,O15287,NP_004620,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/fancg/,15
+CDC42BPA,Q5VT25,NP_003598,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Tiberti (DCI, Denmark)",,
+SOCS1,O15524,NP_003736,0,"Joachim Breitenstein (DCI, Denmark, DTU, Denmark)",,
+MAP3K15,Q6ZN16,NP_001001671,0,"Philipp Becker (DTU, Denmark)",,15
+CCNC,P24863,NP_005181,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+GM2A,P17900,NP_000396,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+ATG4C,Q96DT6,NP_116241,0,"Mattia Utichi (DCRC, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/atg-proteins/atg4c,15
+EP300,Q09472,NP_001420,0,"Ludovica Beltrame (DTU, Denmark)",,
+EEF2K,O00418,NP_037434,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/eef2k/,15
+SFRP4,Q6FHJ7,NP_003005,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+ATXN3,P54252,NP_004984,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/atxn3/,15
+RMI2,Q96E14,NP_689521,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+DDX3X,O00571,NP_001347,0,"Alberte Heering Estad (DCI, Denmark, DTU, Denmark)",,
+TAOK1,Q7L7X3,NP_065842,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",,15
+CSNK1A1,P48729,NP_001883,2,"Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/csnk1a1/,15
+CDC73,Q6P1J9,NP_078805,0,"Anu Oswal (DCI, Denmark, DTU, Denmark)",,15
+BTG2,P78543,NP_006754,2,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/btg2,15
+VCP,P55072,NP_009057,3,"Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/vcp/,15
+POLD2,P49005,NP_001120690,0,"Ludovica Beltrame (DTU, Denmark), Matteo Arnaudi (DTU, Denmark, DCI, Denmark)",,15
+TMEM175,Q9BSA9,NP_115702,3,"Mattia Utichi (DCI, Denmark, DTU, Denmark), Francesca Maselli (DCI, Denmark, IBFM-CNR, Italy)",https://elelab.gitbook.io/mavisp/proteins/tmem175,15
+AMBRA1,Q9C0C7,NP_001373940,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ambra1,15
+FES,P07332,NP_001996,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech Republic)",,15
+RUNX2,Q13950,NP_001019801,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+FANCL,Q9NW38,NP_060532,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/fancl/,15
+SPOP,Q86TW2,NP_001136017,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,15
+ALPK1,Q96QP1,NP_001095876,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/alpk-proteins/alpk1/,15
+ASXL2,Q76L83,NP_060733,0,"Kristine Degn (DCI, Denmark, DTU, Denmark)",,15
+CDC34,P49427,NP_004350,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cdc34/,15
+RAF1,P04049,NP_002871,2,"Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/raf1/,15
+ATG16L1,Q676U5,NP_110430,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/atg-proteins/atg16l1,16.5
+PNP,P00491,NP_000261,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+PAH,P00439,NP_000268,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark)",,
+STK11,Q15831,NP_000446,0,"Joachim Breitenstein (DCI, Denmark, DTU, Denmark)",,
+RUNX1,Q01196,NP_001001890,3,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/runx1/,15
+XCL1,P47992,NP_002986,0,"Kristine Degn (DTU, Denmark)",,15
+CDK19,Q9BWU1,NP_055891,2,"Matteo Tiberti (DCI, Denmark), Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cdk-proteins/cdk15,15
+PRKAA1,Q13131,NP_006242,0,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",,15
+ZFP36L1,Q07352,NP_001231627,0,"Anna Melidi (DCI, Denmark, DTU, Denmark)",,
+LGALS3,P17931,NP_002297,0,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,15
+OTC,P00480,NP_000522,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CDKN1B,P46527,NP_004055,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+ANK2,Q01484,NP_001139,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ank-proteins/ank2,15
+POT1,Q9NUX5,NP_056265,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+OPTN,Q96CV9,NP_068815,3,"Mattia Utichi (DCI, Denmark, DTU, Denmark), Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/optn/,15
+RAD51B,O15315,NP_598193,2,"Eleni Kiachaki (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/rad51b/,15
+INSR,P06213,NP_000199,0,"Kristine Degn (DTU, Denmark)",,
+NDRG1,Q92597,NP_001128714,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+CFAP410,O43822,NP_004919,4,"Francesca Maselli (DCI, Denmark, IBFM-CNR, Italy)",https://elelab.gitbook.io/mavisp/proteins/cfap410/,15
+ERCC2,P18074,NP_000391,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Tiberti (DCI, Denmark)",,15
+ADCK5,Q3MIX3,NP_766548,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/adck-proteins/adck5,15
+CTCF,P49711,NP_006556,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+TSC1,Q92574,NP_000359,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+PIK3CB,P42338,NP_006210,2,"Amalie Drud Nielsen (DCI, Denmark, DTU, Denmark), Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/acvr-proteins/pik3cb,15
+PABPC3,Q9H361,NP_112241,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,15
+CDK14,O94921,NP_001274064,2,"Kristine Degn (DTU, Denmark), Jeremy Vinhas (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cdk-proteins/cdk14,15
+AHR,P35869,NP_001612,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ahr,15
+MSH2,P43246,NP_000242,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark), Ludovica Beltrame (DTU, Denmark), Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+PRSS1,P07477,NP_002760,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,15
+IL4,P05112,NP_000580,2,"Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/il4/,15
+TP53BP1,Q12888,NP_005648,1,"Karolina Krzesińska (DTU, Denmark, DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/tp53bp1,15
+HNF1A,P20823,NP_001293108,0,"Anu Oswal (DCI, Denmark, DTU, Denmark)",,15
+PRKAB2,O43741,NP_005390,0,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",,15
+ARID1A,O14497,NP_006006,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/arid1a/,15
+ULK1,O75385,NP_003556,3,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ulk1/,15
+DYRK1B,Q9Y463,NP_004705,2,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/dyrk1b/,15
+DHFR,P00374,NP_000782,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark)",,
+BUB1B,O60566,NP_001202,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+CASP3,P42574,NP_116786,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/casp3/,15
+LATS2,Q9NRM7,NP_055387,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+CASP8,Q14790,NP_203519,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+HMGB2,P26583,NP_002120,0,"Anna Melidi (DTU, Denmark)",,
+COQ8B,Q96D53,NP_079152,2,"Matteo Lambrughi (DCI, Denmark), Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/coq8b/,15
+PTPRB,P23467,NP_002828,0,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,15
+AXIN1,O15169,NP_003493,0,"Kristine Degn (DCI, Denmark, DTU, Denmark)",,15
+NCS1,P62166,NP_055101,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,15
+CHD2,O14647,NP_001262,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,
+CHEK2,O96017,NP_009125,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+LZTR1,Q8N653,NP_006758,0,"Burcu Aykac Fas (LBT-IBPC, Paris, France)",,15
+FN1,P02751,NP_997647,0,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,
+RHOH,Q15669,NP_004301,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+BCL10,O95999,NP_003912,2,"Terezia Dorcakova (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bcl-proteins/bcl10,15
+YWHAE,P62258,NP_006752,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+TBX5,Q99593,NP_000545,0,"Anna Melidi (DTU, Denmark)",,
+ALPK2,Q86TB3,NP_443179,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/alpk-proteins/alpk2/,15
+ATG2A,Q2TAZ0,NP_055919,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/atg-proteins/atg2a,
+FYCO1,Q9BQS8,NP_078789,0,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",,15
+MYH9,P35579,NP_002464,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,15
+GLUD1,P00367,NP_005262,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+COL18A1,P39060,NP_085059,0,"Kristine Degn (DTU, Denmark, DCI, Denmark)",,
+SOD1,P00441,NP_000445,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark)",,15
+UBE2G2,P60604,NP_001189418,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark)",,15
+FOXA1,P55317,NP_004487,0,"Anna Melidi (DCI, Denmark, DTU, Denmark)",,15
+TP53,P04637,NP_000537,3,"Kristine Degn (DTU, Denmark), Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/tp53/,15
+VHL,P40337,NP_000542,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+AXIN2,Q9Y2T1,NP_004646,0,"Kristine Degn (DCI, Denmark, DTU, Denmark)",,15
+DDIT3,NP_004074,NP_001136017,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+SDHB,P21912,NP_002991,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech Republic)",,15
+WDR45,Q9Y484,NP_001025067,0,"Zeming Hou (DCI, Denmark, DTU, Denmark)",,15
+ELL,P55199,NP_006523,0,"Ludovica Beltrame (DTU, Denmark)",,
+RAB14,P61106,NP_057406,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,15
+ALDH1A1,P00352,NP_000680,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/aldh1a1/,15
+TGFB2,P61812,NP_003229,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+TGFBR2,P37173,NP_003233,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+ERCC5,P28715,NP_000114,0,"Alberte Heering Estad (DCI, Denmark, DTU, Denmark)",,15
+ELF4,Q99607,NP_001412,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+PIM1,P11309,NP_001230115,2,"Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/pim1/,15
+CD274,Q9NZQ7,NP_054862,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+ATG7,O95352,NP_006386,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Mattia Utichi (DCI, Denmark, DTU, Denmark)",,15
+RIPK2,O43353,NP_003812,2,"Kristine Degn (DTU, Denmark), Karolina Krzesińska (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ripk2,15
+POLE,Q07864,NP_006222,0,"Ludovica Beltrame (DTU, Denmark), Matteo Arnaudi (DTU, Denmark, DCI, Denmark)",,15
+MSH6,P52701,NP_000170,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark), Ludovica Beltrame (DTU, Denmark)",,
+MAX,P61244,NP_002373,0,"Anna Melidi (DCI, Denmark, DTU, Denmark)",,15
+MECP2,P51608,NP_004983,0,"Kristine Degn (DTU, Denmark)",,15
+ADH1C,P00326,NP_000660,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/adh-proteins/adh1c,15
+CDKN2D,P55273,NP_001791,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+SFPQ,P23246,NP_005057,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CDH1,P12830,NP_004351,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+ATG4B,Q9Y4P1,NP_037457,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/atg-proteins/atg4b/,15
+ETNK1,Q9HBU6,NP_001034570,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,
+CDKL3,Q8IVW4,NP_057592,3,"Alberto Pettenella (DCI, Denmark), Jeremy Vinhas (DCI, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cdk/cdkl3,15
+PTPRK,Q15262,NP_001278913,0,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,15
+PELI3,Q8N2H9,NP_659502,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/peli3/,15
+TEAD4,Q15561,NP_003204,0,"Kristine Degn (DTU, Denmark)",,15
+MED23,Q9ULK4,NP_004821,0,"Anna Melidi (DTU, Denmark)",,
+ARNT,P27540,NP_001659,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+ARHGEF12,Q9NZN5,NP_056128,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+XBP1,P17861,NP_001073007,0,"Anna Melidi (DCI, Denmark, DTU, Denmark)",,
+EPS15,P42566,NP_001972,0,"Ludovica Beltrame (DTU, Denmark)",,
+FXN,Q16595,NP_000135,0,"Kristine Degn (DTU, Denmark)",,15
+PTEN,P60484,NP_000305,3,"Terezia Dorcakova (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/pten/,15
+LRIG3,Q6UXM1,NP_700356,0,"Burcu Aykac Fas (LBT-IBPC, Paris, France)",,15
+TAOK2,Q9UL54,NP_057235,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+NAB2,Q15742,NP_005958,0,"Paraskevi Saridaki (DCI, Denmark)",,15
+RPL5,P46777,NP_000960,0,"Burcu Aykac Fas (IBPC, France)",,15
+VASH2,Q86V25,NP_001287985,2,"Matteo Tiberti (DCRC, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/vash2,15
+SMARCA4,P51532,NP_001122316,0,"Laura Bauer (DCI, Denmark, DTU, Denmark)",,15
+RSPO2,Q6UXX9,NP_848660,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+ZRSR2,Q15696,NP_005080,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+PHOX2B,Q99453,NP_003915,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+PILRA,Q9UKJ1,NP_038467,4,"Francesca Maselli (DCI, Denmark, IBFM-CNR, Italy)",https://elelab.gitbook.io/mavisp/proteins/pilra/,15
+TXN,P10599,NP_003320,3,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/txn/,15
+DNM2,P50570,NP_001005360,2,"Alberte Heering Estad (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/dnm2/,15
+PRF1,P14222,NP_001076585,0,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,15
+GABARAPL1,Q9H0R8,NP_113600,2,"Mattia Utichi (DCRC, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/gabarapl1/,15
+FBLN2,P98095,NP_001989,0,"Laura Bauer (DCI, Denmark, DTU, Denmark)",,15
+BCL2L2,Q92843,NP_001186768,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bcl-proteins/bcl2l2,15
+FOSB,P53539,NP_006723,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+NQO1,P15559,NP_000894,2,"Katrine Meldgård (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/nqo1/,15
+PRDM1,O75626,NP_001189,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+F8,P00451,NP_000123,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CBL,P22681,NP_005179,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cbl/,15
+FHIT,P49789,NP_001159715,0,"Anu Oswal (DCI, Denmark, DTU, Denmark)",,15
+TBX3,O15119,NP_057653,0,"Anna Melidi (DCI, Denmark, DTU, Denmark)",,15
+ATP7B,P35670,NP_000044,0,"Kristine Degn (DTU, Denmark)",,
+CCNB1IP1,Q9NPC3,NP_067001,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,15
+CIP2A,Q8TCG1,NP_065941,0,"Simone Scrima (DCI, Denmark, DTU, Denmark)",,15
+PRSS2,P07478,NP_02761,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,15
+CSNK1G3,Q9Y6M4,NP_004375,1,"Philipp Becker (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/csnk1g3/,15
+ERCC4,Q92889,NP_005227,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ercc4/,15
+CP,P00450,NP_000087,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+MCL1,Q07820,NP_068779,2,"Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/mcl1/,15
+CDKL1,Q00532,NP_004187,0,"Alberto Pettenella (DCI, Denmark), Simone Scrima (DCI, Denmark, DTU, Denmark)",,15
+SBDS,Q9Y3A5,NP_057122,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CDC42BPB,Q9Y5S2,NP_006026,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Tiberti (DCI, Denmark)",,
+PDIK1L,Q8N165,NP_001230461,2,"Philipp Becker (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/pdik1l/,15
+CAMTA1,Q9Y6Y1,NP_056030,1,"Eleni Kiachaki (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/camta1,15
+ESRRB,O95718,NP_004443,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark)",,15
+SMARCB1,Q12824,NP_003064,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech Republic)",,15
+CDKN2C,P42773,NP_001253,2,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cdkn2c/,15
+CPA2,P48052,NP_001860,2,"Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cp2a/,15
+CDK10,Q15131,NP_443714,2,"Karolina Krzesińska (DTU, Denmark, DCI, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cdk-proteins/cdk10/,15
+BRD2,P25440,NP_001106653,0,"Kristine Degn (DTU, Denmark)",,15
+KAT6B,Q8WYB5,NP_001243397,0,"Anu Oswal (DCI, Denmark, DTU, Denmark)",,15
+CDK20,Q8IZL9,NP_001034892,2,"Jeremy Vinhas (DCI, Denmark), Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cdk-proteins/cdk20,15
+GABARAP,O95166,NP_009209,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/gabarap/,15
+ATG2B,Q96BY7,NP_060506,0,"Mattia Utichi (DCRC, Denmark, DTU, Denmark)",,
+NXF1,Q9UBU9,NP_006353,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/nxf1,15
+ARID2,Q68CP9,NP_001334768,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",,15
+ASXL1,Q8IXJ9,NP_056153,0,"Kristine Degn (DCI, Denmark, DTU, Denmark)",,15
+BLM,P54132,NP_000048,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/blm/,15
+CAMK1D,Q8IU85,NP_065130,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark), Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/camk1d/,15
+GABARAPL2,P60520,NP_009216,2,"Mattia Utichi (DCRC, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/gabarapl2/,15
+EGFR,P00533,NP_005219,3,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/egfr,15
+ERBB2,P04626,NP_004439,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+TNFAIP3,P21580,NP_001257437,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+DDX10,Q13206,NP_004389,2,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ddx10/,15
+MTOR,P42345,NP_004949,0,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",,15
+ULK2,Q8IYT8,NP_001136082,0,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",,15
+MAP1LC3A,Q9H492,NP_115903,2,"Mattia Utichi (DCRC, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/acvr-proteins/map1lc3a,15
+ERCC3,P19447,NP_000113,0,"Alberte Heering Estad (DCI, Denmark, DTU, Denmark)",,15
+NEK2,P51955,NP_002488,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+GSR,P00390,NP_000628,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark), Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,15
+PELI1,Q96FA3,NP_065702,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/peli1/,15
+PER1,O15534,NP_002607,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+BRCA2,P51587,NP_000050,4,"Matteo Arnaudi (DCRC, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/brca2/,15
+CNOT3,O75175,NP_055331,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,
+CSNK1A1L,Q8N752,NP_660204,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/csnk1a1l/,15
+EPAS1,Q99814,NP_001421,0,"Paraskevi Saridaki (DCI, Denmark)",,15
+ATF3,P18847,NP_001025458,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+SDHC,Q99643,NP_002992,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech Republic)",,15
+ARID3A,Q99856,NP_005215,3,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Karolina Krzesińska (DTU, Denmark, DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/arid3a,15.5
+RARB,P10826,NP_000956,0,"Anna Melidi (DTU, Denmark)",,15
+BAZ1A,Q9NRL2,NP_038476,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,15
+PTPRD,P23468,NP_002830,0,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,15
+SMARCD1,Q96GM5,NP_003067,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech republic)",,15
+CBLB,Q13191,NP_001308717,0,"Anu Oswal (DCI, Denmark, DTU, Denmark)",,15
+FH,P07954,NP_000134,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+ARHGAP35,Q9NRY4,NP_004482,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+FANCD2,Q9BXW9,NP_001018125,1,"Anu Oswal (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/fancd2/,15
+ATG12,O94817,NP_004698,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/atg-proteins/atg12,15
+ARID3B,Q8IVW6,NP_001294868,0,"Joachim Breitenstein (DCI, Denmark, DTU, Denmark)",,15
+PMS2,P54278,NP_000526,0,"Ludovica Beltrame (DTU, Denmark), Matteo Arnaudi (DTU, Denmark)",,15
+CAMKK1,Q8N5S9,NP_115670,2,"Matteo Lambrughi (DCI, Denmark), Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,
+WRN,Q14191,NP_000544,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,
+ATG4D,Q86TL0,NP_116274,0,"Mattia Utichi (DCRC, Denmark, DTU, Denmark)",,15
+LMO4,P61968,NP_006760,0,"Anna Melidi (DTU, Denmark)",,15
+CBLC,Q9ULV8,NP_036248,0,"Guglielmo Tedeschi (DCI, Denmark, UCT, Czech Republic)",,15
+PHF6,Q8IWS0,NP_001015877,0,"Paraskevi Saridaki (DCI, Denmark)",,15
+GATA3,P23771,NP_002042,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Pablo Sanchez-Izquierdo (DCI, Denmark, DTU, Denmark)",,15
+KNL1,Q8NG31,NP_733468,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,
+NCOR2,Q9Y618,NP_006303,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,15
+PTPRC,P08575,NP_002829,0,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,15
+ABI1,Q8IZP0,NP_005461,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+FOXM1,Q08050,NP_068772,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+BECN1,Q14457,NP_001300927,1,"Zeming Hou (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/becn1/,15
+ATG13,O75143,NP_001136145,2,"Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/atg-proteins/atg13,15
+HRAS,P01112,NP_001123914,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Ludovica Beltrame (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/hras/,15
+CHD8,Q9HCK8,NP_001164100,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+SDHAF2,Q9NX18,NP_060311,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+AP2A1,O95782,NP_055018,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ap2a1/,15
+PITX3,O75364,NP_005020,0,"Anna Melidi (DCI, Denmark, DTU, Denmark)",,15
+FANCA,O15360,NP_000126,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/fanca/,15
+TFAP4,Q01664,NP_003214,0,"Anna Melidi (DCI, Denmark, DTU, Denmark)",,15
+DDB2,Q92466,NP_000098,0,"Paraskevi Saridaki (DCI, Denmark)",,15
+CLK3,P49761,NP_003983,2,"Kristine Degn (DTU, Denmark), Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/clk3/,15
+EBF1,Q9UH73,NP_076870,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CDK4,P11802,NP_000066,2,"Jeremy Vinhas (DCI, Denmark), Matteo Tiberti (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cdk-proteins/cdk4,15
+NEK3,P51956,NP_002489,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+CSNK1G1,Q9HCP0,NP_071331,1,"Philipp Becker (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/csnk1g1/,15
+CDK15,Q96Q40,NP_001248364,2,"Jeremy Vinhas (DCI, Denmark), Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cdk-proteins/cdk15,15
+DNMT3A,Q9Y6K1,NP_072046,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,
+FABP3,P05413,NP_004093,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+CLTC,Q00610,NP_004850,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,
+CBFA2T3,Q86TW2,NP_001136017,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+STAT3,P40763,NP_001356442,2,"Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/stat3/,15
+ACVR1B,P36896,NP_004293,3,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/acvr-proteins/acvr1b,"14.5, 15"
+BCL2A1,Q16548,NP_004040,2,"Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bcl-proteins/bcl2a1,15
+BOK,Q9UMX3,NP_115904,2,"Julie Bruun Brockhoff (DCI, Denmark, DTU, Denmark), Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bok,15
+CCND3,P30281,NP_001751,2,"Jeremy Vinhas (DCI, Denmark), Matteo Tiberti (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ccnd3/,15
+CYB5R3,P00387,NP_000389,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark), Pablo Sanchez-Izquierdo (DTU, Denmark, DCRC, Denmark)",,15
+MAP1LC3B,Q9GZQ8,NP_073729,3,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/map1lc3b/,15
+NFATC3,Q12968,NP_775188,0,"Anna Melidi (DCI, Denmark, DTU, Denmark)",,
+PALB2,Q86YC2,NP_078951,0,"Laura Bauer (DCI, Denmark, DTU, Denmark)",,15
+RPL22,P35268,NP_000974,0,"Burcu Aykac Fas (IBPC, France)",,15
+PTPN13,Q12923,NP_542414,0,"Kristine Degn (DTU, Denmark)",,
+BCL2L10,Q9HD36,NP_065129,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bcl-proteins/bcl2l10/,15
+SMAD3,P84022,NP_005893,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,15
+COQ8A,Q8NI60,NP_064632,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/coq8a/,15
+SMPD1,P17405,NP_000534,4,"Simone Scrima (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/smpd1,15
+PTPN6,P29350,NP_002822,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+TENT5C,Q5VWP2,NP_060179,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+PPIA,P62937,NP_001287910,3,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ppia/,15
+MGMT,P16455,NP_002403,0,"Burcu Aykac Fas (LBT-IBPC, Paris, France)",,15
+CBX8,Q9HC52,NP_065700,0,"Anna Melidi (DTU, Denmark)",,15
+FKBP1A,P62942,NP_000792,3,"Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/fkbp1a/,15
+CALCOCO2,Q13137,NP_005822,2,"Laura Mattioli (DCRC, Denmark), Mattia Utichi (DCRC, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/calcoco2,15
+ATR,Q13535,NP_001175,0,"Pablo Sanchez-Izquierdo (DTU, Denmark, DCI, Denmark)",,
+CPTP,Q5TA50,NP_001025056,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+PPP2R1A,P30153,NP_055040,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+VASH1,Q7L8A9,NP_055724,2,"Matteo Tiberti (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/vash1,15
+BRAF,P15056,NP_004324,2,"Ludovica Beltrame (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/braf/,15
+TRAP1,Q12931,NP_057376,3,"Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/trap1/,15
+SH2B3,Q9UQQ2,NP_005466,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+BRD3,Q15059,NP_031397,2,"Kristine Degn (DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/brd3,15
+IGF2BP2,Q9Y6M1,NP_006539,0,"Karolina Krzesińska (DCI, Denmark, DTU, Denmark)",,
+BCL2,P10415,NP_000624,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/bcl-proteins/bcl2,15
+CYB5A,P00167,NP_001177736,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/cyb5a/,15
+RAD51C,O43502,NP_478123,2,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/rad51c/,15
+KEAP1,Q14145,NP_036421,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Mattia Utichi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/keap1/,15
+CPEB3,Q8NE35,NP_055331,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+GRIN2A,Q12879,NP_000824,3,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/grin2a/,15
+ACVR2A,P27037,NP_001265508,2,"Matteo Lambrughi (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/acvr-proteins/acvr2a,15
+FANCC,Q00597,NP_000127,0,"Jeppe Samuelsen (DCI, Denmark, DTU, Denmark)",,15
+SIRPA,P78324,NP_001035111,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+DLG4,P78352,NP_001356,0,"Kristine Degn (DTU, Denmark)",,15
+WIF1,Q9Y5W5,NP_009122,1,"Laura Bauer (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/wif1/,15
+MZF1,P28698,NP_932172,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/mzf1,15
+NRG1,Q02297,NP_039258,0,"Matteo Arnaudi (DCI, Denmark, DTU, Denmark)",,15
+DICER1,Q9UPY3,NP_085124,0,"Matteo Tiberti (DCI, Denmark)",,
+TINF2,Q9BSI4,NP_001092744,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark), Matteo Lambrughi (DCI, Denmark)",,15
+CDKN2A,P42771,NP_000068,0,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",,
+MED12,Q93074,NP_005111,0,"Lorenzo Favaro (DCI, Denmark, DTU, Denmark)",,15
+FBXO11,Q86XK2,NP_00117720,0,"Joachim Breitenstein (DCI, Denmark, DTU, Denmark)",,
+ERN2,Q87MJ5,NP_150296,2,"Matteo Tiberti (DCI, Denmark)",https://elelab.gitbook.io/mavisp/proteins/ern2/,15
+ADCK1,Q86TW2,NP_001136017,2,"Elena Papaleo (DCI, Denmark, DTU, Denmark)",https://elelab.gitbook.io/mavisp/proteins/adck-proteins/adck1,15
+TTR,P02766,NP_000362,0,"Elena Papaleo (DCRC, Denmark, DTU, Denmark)",,15
