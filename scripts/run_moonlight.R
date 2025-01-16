@@ -157,7 +157,7 @@ loadMAVISp <- function(mavispDB = NULL,
 
 
 
-dataMAVISp <- loadMAVISp(mavispDB = "../rawdata/mavisp_csv/11102024_ALL",
+dataMAVISp <- loadMAVISp(mavispDB = "../rawdata/mavisp_csv/10012025_ALL",
                        proteins_of_interest = NULL,
                        mode = 'simple',
                        ensemble = 'md')
@@ -168,7 +168,7 @@ TFinfluence <- function(dataPRA,
                         dataTRRUST,
                         dataMAF,
                         dataMAVISp,
-                        stabClassMAVISp = 'rosetta'){ 
+                        stabClassMAVISp = 'rasp'){ 
     # Control user input -------------
     # dataPRA
     if (all(names(dataPRA) %in% c("TSG", "OCG")) == FALSE) {
@@ -295,43 +295,51 @@ TF_lumA <- TFinfluence(dataPRA = PRA_lumA,
             dataTRRUST = TRUSST_data,
             dataMAF = Maf_lumA,
             dataDEGs = DEA_lumA,
-            dataMAVISp = dataMAVISp
+            dataMAVISp = dataMAVISp,
+            stabClassMAVISp = 'rasp'
             )
 save(TF_lumA, file =  "../results/TF_lumA.rda")
 
 # Plots -----
-mutation_count <- TF_lumA %>%
-  group_by(TF, stab_class) %>%         
-  summarise(unique_mutations = n_distinct(tf_mutation), 
-            .groups = 'drop') 
+# MAVISp coverage ----
+TF_lumA_classified <- TF_lumA %>%
+  mutate(
+    stab_class_dynamic = case_when(
+      is.na(stab_class) & !in_MAVISp & !mutation_available ~ "TF not in MAVISP yet",
+      is.na(stab_class) & in_MAVISp & !mutation_available ~ "mutation in IDR",
+      TRUE ~ stab_class 
+    )
+  ) %>%
+  group_by(TF, stab_class_dynamic) %>%
+  summarise(unique_mutations = n_distinct(tf_mutation), .groups = 'drop') %>% 
+  arrange(desc(unique_mutations))
 
-top_TFs <- mutation_count %>%
+# Compute total mutations to find top TFs
+top_TFs <- TF_lumA_classified %>%
   group_by(TF) %>%
   summarise(total_mutations = sum(unique_mutations)) %>%
-  arrange(desc(total_mutations))  
-write.csv(top_TFs, file = "../results/TFinfluence_TFmutations.csv", row.names = FALSE)
+  arrange(desc(total_mutations)) %>% 
+  slice_head(n = 20) %>%
+  pull(TF)
+  
+# Filter the top TFs
+mutation_count_top <- TF_lumA_classified %>%
+  filter(TF %in% top_TFs) %>% 
+  mutate(TF = factor(TF, levels = top_TFs))
 
-top_15 <- top_TFs %>%
-  slice_head(n = 15) %>%
-  pull(TF) 
-
-mutation_count_top <- mutation_count %>%
-  filter(TF %in% top_15)
-
-png(filename = "../figures/plot_TFinfluence_coverage.png",
+png(filename = "../figures/plot_TFinfluence_MAVISp_coverage.png",
     width = 15, height = 6, units = "in", pointsize = 4, res = 1200)
-ggplot(mutation_count_top, aes(x = TF, y = unique_mutations, fill = stab_class)) +
+ggplot(mutation_count_top, aes(x = TF, y = unique_mutations, fill = stab_class_dynamic)) +
   geom_bar(stat = "identity", position = "stack") +
   labs(
     title = "MAVISp Coverage of TFs & Mutations",
     x = "TF",
-    y = "Number of Mutations in Cancer Patients",
+    y = "Number of Mutations found in LumA cancer patients",
     fill = "MAVISp stability prediction"
   ) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 dev.off()
-
 
 final_table <- TF_lumA %>%
   filter(
