@@ -1,3 +1,4 @@
+# This script runs the Somatic Mutational Analysis of the thesis
 ### Libraries
 library(maftools)
 
@@ -8,7 +9,7 @@ TF <- unique(TRUSST_data$TF)
 
 maf_tf <- subsetMaf(maf = maf, isTCGA = TRUE, genes = TF)
 
-## Summary statistics
+## MAF Summary & Oncoplot
 png("../figures/maf_summary.png")
 plotmafSummary(maf = maf_tf, rmOutlier = TRUE, addStat = 'median', dashboard = TRUE, titvRaw = FALSE, 
                log_scale = FALSE, top = 10)
@@ -18,137 +19,83 @@ png("../figures/maf_oncoplot.png")
 oncoplot(maf = maf_tf, top = 15)
 dev.off()
 
-oncoplot(maf = maf, top = 15)
-## TP53
+
+### Lollipop Plots ----
+##-- TP53
 png("../figures/loll_tp53.png")
 lollipopPlot(
   maf,
-  data = NULL,
   gene = 'TP53',
-  AACol = NULL,
-  labelPos = c(251, 135, 245, 274, 111,157, 158, 126, 234, 257),
-  labPosSize = 0.3,
-  showMutationRate = TRUE,
-  showDomainLabel = TRUE,
-  cBioPortal = FALSE,
-  refSeqID = NULL,
-  proteinID = NULL,
-  roundedRect = TRUE,
-  repel = TRUE,
-  collapsePosLabel = TRUE,
-  showLegend = TRUE,
-  legendTxtSize = 0.8,
-  labPosAngle = 45,
-  domainLabelSize = 0.8,
-  axisTextSize = c(1, 1),
-  printCount = TRUE,
-  colors = NULL,
-  domainAlpha = 1,
-  domainBorderCol = "black",
-  bgBorderCol = "black",
-  labelOnlyUniqueDoamins = FALSE,
-  defaultYaxis = FALSE,
-  titleSize = c(1.2, 1),
-  pointSize = 1.5
-)
+  labelPos = c(157, 126, 234, 257),
+  labPosSize = 0.6,
+  showDomainLabel = FALSE
+  )
 dev.off()
 
-#########
+##-- STAT3
 png("../figures/loll_stat3.png")
 lollipopPlot(
   maf,
-  data = NULL,
   gene = 'STAT3',
-  AACol = NULL,
   labelPos = 564,
-  labPosSize = 0.5,
-  showMutationRate = TRUE,
-  showDomainLabel = TRUE,
-  cBioPortal = FALSE,
-  refSeqID = NULL,
-  proteinID = NULL,
-  roundedRect = TRUE,
-  repel = TRUE,
-  collapsePosLabel = TRUE,
-  showLegend = TRUE,
-  legendTxtSize = 0.8,
-  labPosAngle = 45,
-  domainLabelSize = 0.8,
-  axisTextSize = c(1, 1),
-  printCount = TRUE,
-  colors = NULL,
-  domainAlpha = 1,
-  domainBorderCol = "black",
-  bgBorderCol = "black",
-  labelOnlyUniqueDoamins = FALSE,
-  defaultYaxis = FALSE,
-  titleSize = c(1.2, 1),
-  pointSize = 1.5
+  labPosSize = 0.8,
+  showDomainLabel = FALSE
 )
 dev.off()
-######
+
+##-- RUNX1
 png("../figures/loll_runx1.png")
 lollipopPlot(
   maf,
-  data = NULL,
   gene = 'RUNX1',
-  AACol = NULL,
-  labelPos = 141,
-  labPosSize = 0.5,
-  showMutationRate = TRUE,
-  showDomainLabel = TRUE,
-  cBioPortal = FALSE,
-  refSeqID = NULL,
-  proteinID = NULL,
-  roundedRect = TRUE,
-  repel = TRUE,
-  collapsePosLabel = TRUE,
-  showLegend = TRUE,
-  legendTxtSize = 0.8,
-  labPosAngle = 45,
-  domainLabelSize = 0.8,
-  axisTextSize = c(1, 1),
-  printCount = TRUE,
-  colors = NULL,
-  domainAlpha = 1,
-  domainBorderCol = "black",
-  bgBorderCol = "black",
-  labelOnlyUniqueDoamins = FALSE,
-  defaultYaxis = FALSE,
-  titleSize = c(1.2, 1),
-  pointSize = 1.5
+  labelPos = c(76,141),
+  labPosSize = 0.8,
+  showDomainLabel = FALSE
 )
 dev.off()
-######
+
+##-- FOXA1
 png("../figures/loll_foxa1.png")
 lollipopPlot(
   maf,
-  data = NULL,
   gene = 'FOXA1',
-  AACol = NULL,
   labelPos = 214,
-  labPosSize = 0.5,
-  showMutationRate = TRUE,
-  showDomainLabel = TRUE,
-  cBioPortal = FALSE,
-  refSeqID = NULL,
-  proteinID = NULL,
-  roundedRect = TRUE,
-  repel = TRUE,
-  collapsePosLabel = TRUE,
-  showLegend = TRUE,
-  legendTxtSize = 0.8,
-  labPosAngle = 45,
-  domainLabelSize = 0.8,
-  axisTextSize = c(1, 1),
-  printCount = TRUE,
-  colors = NULL,
-  domainAlpha = 1,
-  domainBorderCol = "black",
-  bgBorderCol = "black",
-  labelOnlyUniqueDoamins = FALSE,
-  defaultYaxis = FALSE,
-  titleSize = c(1.2, 1),
-  pointSize = 1.5
+  labPosSize = 0.8,
+  showDomainLabel = FALSE
 )
 dev.off()
+
+##-- ATM
+png("../figures/loll_atm.png")
+lollipopPlot(
+  maf,
+  gene = 'ATM',
+  labelPos = 2780,
+  labPosSize = 0.8,
+  showDomainLabel = FALSE
+)
+dev.off()
+
+##-- NF1
+png("../figures/loll_nf1.png")
+lollipopPlot(
+  maf,
+  gene = 'NF1',
+  AACol = NULL,
+  labelPos = 529,
+  labPosSize = 0.8,
+  showDomainLabel = FALSE
+  )
+  dev.off()
+
+##-- SMARCA4
+png("../figures/loll_smarca4.png")
+lollipopPlot(
+  maf,
+  gene = 'SMARCA4',
+  AACol = NULL,
+  labelPos = 1500,
+  labPosSize = 0.8,
+  showDomainLabel = FALSE
+  )
+  dev.off()
