@@ -150,63 +150,66 @@ ggplot(mutation_count_top, aes(x = TF, y = unique_mutations, fill = stab_class_d
 dev.off()
 
 # Pie charts ----
-total_TFs <- nrow(TF_lumA_classified)
-total_mutations <- sum(TF_lumA_classified$unique_mutations)
-
+total_TFs <- num(length(unique(TF_lumA_classified$TF)))
+total_mutations <- num(sum(TF_lumA_classified$unique_mutations))
 not_in_mavisp <- TF_lumA_classified %>%
   filter(stab_class_dynamic == "TF not in MAVISP yet")
-not_in_mavisp_count <- nrow(not_in_mavisp)
-not_in_mavisp_mutations <- sum(not_in_mavisp$unique_mutations)
-
+not_in_mavisp_count <- num(nrow(not_in_mavisp))
+not_in_mavisp_mutations <- num(sum(not_in_mavisp$unique_mutations))
 percentage_not_in_mavisp <- (not_in_mavisp_count / total_TFs) * 100
 percentage_mutations_not_in_mavisp <- (not_in_mavisp_mutations / total_mutations) * 100
 
-cat("Percentage of TFs not in MAVISP yet:", percentage_not_in_mavisp, "%\n")
-cat("Percentage of total mutations by these TFs:", percentage_mutations_not_in_mavisp, "%\n")
-
-pie_data <- tibble(
-  category = c("TFs not in MAVISP", "Other TFs"),
-  count = c(not_in_mavisp_count, total_TFs - not_in_mavisp_count),
-  percentage = c(percentage_not_in_mavisp, 100 - percentage_not_in_mavisp)
+TF_data <- tibble(
+  category = c("Non curated TFs", "Curated TFs"),
+  count = as.numeric(c(not_in_mavisp_count, total_TFs - not_in_mavisp_count)),  # Convert to numeric
+  percentage = as.numeric(c(percentage_not_in_mavisp, 100 - percentage_not_in_mavisp))  # Convert to numeric
 ) %>%
   mutate(label = paste0(category, "\n", count, " (", round(percentage, 1), "%)"))
 
 mutation_data <- tibble(
-  category = c("Mutations by TFs not in MAVISP", "Mutations by other TFs"),
-  count = c(not_in_mavisp_mutations, total_mutations - not_in_mavisp_mutations),
-  percentage = c(percentage_mutations_not_in_mavisp, 100 - percentage_mutations_not_in_mavisp)
+  category = c("Mutations by non curated TFs", "Mutations by curated TFs"),
+  count = as.numeric(c(not_in_mavisp_mutations, total_mutations - not_in_mavisp_mutations)),
+  percentage = as.numeric(c(percentage_mutations_not_in_mavisp, 100 - percentage_mutations_not_in_mavisp))
 ) %>%
   mutate(label = paste0(category, "\n", count, " (", round(percentage, 1), "%)"))
 
-tf_pie <- ggplot(pie_data, aes(x = "", y = count, fill = category)) +
+tf_pie <- ggplot(TF_data, aes(x = "", y = count, fill = label)) +
   geom_bar(stat = "identity", width = 1, color = "white") +
-  geom_text(aes(label = pie_data$label), position = position_stack(vjust = 0.5), size = 5) +
   coord_polar(theta = "y") +
   labs(
-    title = "MAVISp coverage of TFs",
+    title = "MAVISp coverage of TFs regulating drivers",
     fill = "Category",
     x = NULL, y = NULL
   ) +
   theme_minimal() +
+  scale_fill_manual(values = c("#4e2df7", "#faa82d"))+
   theme(axis.text = element_blank(),
         axis.ticks = element_blank(),
-        plot.title = element_text(hjust = 0.5))
+        plot.title = element_text(hjust = 0.5),
+        legend.title = element_text(size = 0), 
+        legend.text = element_text(hjust = 0.5),
+        legend.position = "bottom"  
+  )
 
-mutation_pie <- ggplot(mutation_data, aes(x = "", y = count, fill = category)) +
+mutation_pie <- ggplot(mutation_data, aes(x = "", y = count, fill = label)) +
   geom_bar(stat = "identity", width = 1, color = "white") +
   coord_polar(theta = "y") +
   labs(
-    title = "Distribution of Mutations",
+    title = "Missense Mutations on TFs of Drivers",
     fill = "Category",
     x = NULL, y = NULL
   ) +
-  scale_fill_manual(values = c("#604cf5", "#f2b25e"),
-                    labels = paste0(mutation_data$category, ": ", mutation_data$count, " (", round(mutation_data$percentage, 1), "%)")) +
+  scale_fill_manual(values = c("#604cf5", "#f2b25e"))+
   theme_minimal() +
   theme(axis.text = element_blank(),
         axis.ticks = element_blank(),
-        plot.title = element_text(hjust = 0.5))
+        plot.title = element_text(hjust = 0.5),
+        legend.title = element_text(size = 0), 
+        legend.text = element_text(hjust = 0.5),
+        legend.position = "bottom")
+
 png(filename = "../figures/plot_TFinfluence_total_coverage.png",
 	width = 8, height = 4, units = "in", pointsize = 4, res = 1200)
 grid.arrange(tf_pie, mutation_pie, ncol = 2)
+dev.off
 
