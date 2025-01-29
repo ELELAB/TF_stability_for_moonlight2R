@@ -108,6 +108,7 @@ print('TFinfluence is done')
 # Plots -----
 # MAVISp coverage ----
 TF_lumA_classified <- TF_lumA %>%
+  filter(!is.na(tf_mutation)) %>% 
   mutate(
     stab_class_dynamic = case_when(
       is.na(stab_class) & !in_MAVISp & !mutation_available ~ "TF not in MAVISP yet",
